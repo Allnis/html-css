@@ -24,7 +24,7 @@ html, body {
 }
 
 header {
-    background-color: #d4a373 ;
+    background-color: #ccd5ae;
     color: white;
     text-align: center;
 
@@ -33,13 +33,13 @@ header {
 header > h1 {
     padding: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte1);
+    font-family: var(--fonte2);
     font-size: 7vw;
 }
 
 header > p {
     padding-bottom: 50px;
-    background-color: #d4a373;
+    background-color: #ccd5ae;
     color: white;
 }
 
@@ -64,19 +64,36 @@ header > p {
 
     }
 
+    section > p {
+        padding-bottom: 1.7em;
+    }
+
     section.normal {
-        background-color:#fefae0 ;
+        background-color:#faedcd;
     }
 
     section.imagem {
-        background-color: #faedcd;
+        background-color: #fefae0;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.674);
+        background-attachment: fixed;
     }
 
     section.imagem > p {
-        width: 300px;
-        background-color: #fefae0c2;
+        background-color: #fefae09e;
         display: inline-block;
         padding: 5px;
+    }
+
+    section#img01 {
+        background-image: url('../imagens/background001.jpg');
+        background-position: right center;
+        background-size: cover;
+    }
+
+    section#img02 {
+        background-image: url('../imagens/background002.jpg');
+        background-position: right center;
+        background-size: cover;
     }
 
     footer {
